@@ -1,0 +1,18 @@
+# Credentials — never commit these
+.Renviron
+
+# Raw and processed data (large, regenerable from the script — not source code)
+data/raw/
+data/processed/
+data/predictors/*.tif
+
+# Model outputs and evaluation results (regenerable; the .rds files can be
+# large — remove from .gitignore selectively if you want the CSV summary
+# tracked, since that one is small and human-readable)
+outputs/models/
+outputs/figures/
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
