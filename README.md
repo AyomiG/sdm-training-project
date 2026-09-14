@@ -5,7 +5,7 @@ multi-species Species Distribution Modelling (SDM) pipeline: GBIF
 occurrence data → environmental predictors → Maxnet models → evaluation →
 suitability maps.
 
-## What this is — and isn't
+## Project Description
 
 This project was built to refresh and demonstrate practical SDM skills
 end-to-end, from raw occurrence data through to evaluated, mapped models
@@ -13,8 +13,7 @@ across roughly 490 species in a small pilot region of Switzerland.
 
 It is **not** a reproduction of any prior published research or dataset.
 Species selection, predictor choice, and study extent were all chosen for
-speed and learning value, not scientific novelty — see *Limitations*
-below for what that trades away.
+learning value.
 
 ## Workflow overview
 
